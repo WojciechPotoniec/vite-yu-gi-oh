@@ -18,6 +18,12 @@ import MainComponent from './components/MainComponent.vue';
       return {
         store,
       }
+    },
+    created(){
+      axios.get(this.store.apiPath + this.store.endPoint.cardSearch).then((res) => {
+        this.store.Cards = res.data.data
+        console.log(this.store.Cards);
+      })
     }
   }
 </script>
