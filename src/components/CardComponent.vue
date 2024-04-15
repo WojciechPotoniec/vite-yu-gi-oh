@@ -7,9 +7,7 @@
   </select>
   <div class="container bg-light p-5">
     <h4 class="text-light p-3">Found {{ store.Cards.length }} cards</h4>
-    <div
-      class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 g-2 g-lg-3"
-    >
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 row-cols-lg-5 g-2 g-lg-3">
       <div class="col" v-for="card in store.Cards" :key="store.Cards.id">
         <div class="card">
           <img
