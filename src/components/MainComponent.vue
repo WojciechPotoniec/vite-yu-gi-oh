@@ -1,5 +1,7 @@
 <template>
-<CardComponent />
+    <main>
+        <CardComponent />
+    </main>
 </template>
 
 <script>
@@ -18,5 +20,7 @@ import CardComponent from './CardComponent.vue'
 </script>
 
 <style lang="scss" scoped>
-
+main{
+    background-color: orange;
+}
 </style>
