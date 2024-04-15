@@ -1,7 +1,7 @@
 <template>
   <header class="d-flex align-items-center ms-3">
     <div id="logo">
-      <img :src="img" alt="" />
+      <img :src="img" alt="logo" />
     </div>
     <h1>Yu-Gi-Oh Api</h1>
   </header>
