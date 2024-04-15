@@ -1,5 +1,4 @@
 <template>
-    
 <CardComponent />
 </template>
 
